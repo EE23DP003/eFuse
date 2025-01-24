@@ -1,0 +1,918 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15345 ]
+[d frameptr 6 ]
+"88 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr2.c
+[e E6745 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"94
+[e E6768 . `uc
+TMR2_T2INPPS 0
+TMR2_CCP1_OUT 1
+TMR2_CCP2_OUT 2
+TMR2_PWM3_OUT 3
+TMR2_PWM4_OUT 4
+TMR2_PWM5_OUT 5
+TMR2_PWM6_OUT 6
+TMR2_C1_OUT_SYNC 7
+TMR2_C2_OUT_SYNC 8
+TMR2_ZCD_OUTPUT 9
+TMR2_CLC1_OUT 10
+TMR2_CLC2_OUT 11
+TMR2_CLC3_OUT 12
+TMR2_CLC4_OUT 13
+]
+"85 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/adc.c
+[e E6750 . `uc
+VCCSENSE_ANA2 2
+ISENSE_ANB4 12
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"66 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\main.c
+[e E372 EFUSE_STATES `uc
+OUTPUT_OFF 0
+OUTPUT_ON 1
+]
+"75 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\efuse.c
+[e E7080 EFUSE_STATES `uc
+OUTPUT_OFF 0
+OUTPUT_ON 1
+]
+"76
+[e E7228 OCP_FAULT_STATES `uc
+NO_OVER_CURRENT_FAULT 0
+SLOW_OVER_CURRENT_FAULT 1
+FAST_OVER_CURRENT_FAULT 2
+SHORT_CIRCUIT 3
+]
+"78
+[e E7217 EFUSE_TRIGGER_TYPES `uc
+TRIGGER_EDGE 0
+TRIGGER_TIMER_OVERFLOW 1
+]
+"84
+[e E7220 HW_TRIP_CURRENT_THRESHOLDS `uc
+I_HW_TRIP_0A 0
+I_HW_TRIP_33A 1
+I_HW_TRIP_66A 2
+I_HW_TRIP_99A 3
+I_HW_TRIP_132A 4
+I_HW_TRIP_165A 5
+I_HW_TRIP_198A 6
+]
+"167
+[e E7196 . `uc
+VCCSENSE_ANA2 2
+ISENSE_ANB4 12
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"90 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\efuse.c
+[v _EFuseInit EFuseInit `(v  1 e 1 0 ]
+"114
+[v _EFuse EFuse `(v  1 e 1 0 ]
+"153
+[v _ProcessAnalogInputs ProcessAnalogInputs `(v  1 e 1 0 ]
+"198
+[v _CmdOutput CmdOutput `(v  1 e 1 0 ]
+[v i1_CmdOutput CmdOutput `(v  1 e 1 0 ]
+"55 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"67 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"85
+[v _ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+"112
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc2.c
+[v _CLC2_Initialize CLC2_Initialize `(v  1 e 1 0 ]
+"89
+[v _CLC2_ISR CLC2_ISR `(v  1 e 1 0 ]
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc3.c
+[v _CLC3_Initialize CLC3_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc4.c
+[v _CLC4_Initialize CLC4_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/cmp2.c
+[v _CMP2_Initialize CMP2_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/dac1.c
+[v _DAC1_Initialize DAC1_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"68
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"84
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"68 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"129
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+"136
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"155
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"159
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"63 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"92
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+[v i1_TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"98
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+[v i1_TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+[v i1_TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"62 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+[v i1_TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+[v i1_TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+[v i1_TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+[s S858 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"427 C:/Users/abhin/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15345.h
+[u S863 . 1 `S858 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES863  1 e 1 @11 ]
+"598
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"643
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"682
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+[s S1465 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"699
+[u S1474 . 1 `S1465 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES1474  1 e 1 @20 ]
+"744
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"789
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+"828
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+"897
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"967
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1037
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S960 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GOnDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 CHS5 1 0 :1:7 
+]
+"1058
+[s S969 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CHS 1 0 :6:2 
+]
+[u S972 . 1 `S960 1 . 1 0 `S969 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES972  1 e 1 @157 ]
+"1108
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"3021
+[v _TMR1L TMR1L `VEuc  1 e 1 @524 ]
+"3191
+[v _TMR1H TMR1H `VEuc  1 e 1 @525 ]
+"3311
+[v _T1CON T1CON `VEuc  1 e 1 @526 ]
+[s S709 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"3342
+[s S715 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S722 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S726 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S729 . 1 `S709 1 . 1 0 `S715 1 . 1 0 `S722 1 . 1 0 `S726 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES729  1 e 1 @526 ]
+"3407
+[v _T1GCON T1GCON `VEuc  1 e 1 @527 ]
+"3603
+[v _T1GATE T1GATE `VEuc  1 e 1 @528 ]
+"3769
+[v _T1CLK T1CLK `VEuc  1 e 1 @529 ]
+"3911
+[v _T2TMR T2TMR `VEuc  1 e 1 @652 ]
+"3965
+[v _T2PR T2PR `VEuc  1 e 1 @653 ]
+"4019
+[v _T2CON T2CON `VEuc  1 e 1 @654 ]
+[s S597 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"4055
+[s S601 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+]
+[s S609 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S613 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S622 . 1 `S597 1 . 1 0 `S601 1 . 1 0 `S609 1 . 1 0 `S613 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES622  1 e 1 @654 ]
+"4165
+[v _T2HLT T2HLT `VEuc  1 e 1 @655 ]
+"4293
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @656 ]
+"4373
+[v _T2RST T2RST `VEuc  1 e 1 @657 ]
+"6617
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+"6755
+[v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
+"7009
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
+"7074
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
+[s S841 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"7935
+[u S846 . 1 `S841 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES846  1 e 1 @1804 ]
+[s S1253 . 1 `uc 1 C1IF 1 0 :1:0 
+`uc 1 C2IF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 ZCDIF 1 0 :1:6 
+]
+"8007
+[u S1258 . 1 `S1253 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1258  1 e 1 @1806 ]
+[s S466 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+]
+"8089
+[u S469 . 1 `S466 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES469  1 e 1 @1808 ]
+[s S149 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 CLC1IF 1 0 :1:4 
+`uc 1 CLC2IF 1 0 :1:5 
+`uc 1 CLC3IF 1 0 :1:6 
+`uc 1 CLC4IF 1 0 :1:7 
+]
+"8119
+[u S156 . 1 `S149 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES156  1 e 1 @1809 ]
+[s S828 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"8230
+[u S833 . 1 `S828 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES833  1 e 1 @1814 ]
+[s S166 . 1 `uc 1 TMR1GIE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 CLC1IE 1 0 :1:4 
+`uc 1 CLC2IE 1 0 :1:5 
+`uc 1 CLC3IE 1 0 :1:6 
+`uc 1 CLC4IE 1 0 :1:7 
+]
+"8408
+[u S173 . 1 `S166 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES173  1 e 1 @1819 ]
+"8506
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"8551
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"8599
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"8644
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"8694
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"8734
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"9802
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"9942
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"9982
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @2192 ]
+"10039
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"10090
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"10148
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"10299
+[v _FVRCON FVRCON `VEuc  1 e 1 @2316 ]
+"10375
+[v _DAC1CON0 DAC1CON0 `VEuc  1 e 1 @2318 ]
+"10476
+[v _DAC1CON1 DAC1CON1 `VEuc  1 e 1 @2319 ]
+[s S1266 . 1 `uc 1 DAC1R 1 0 :5:0 
+]
+"10493
+[s S1268 . 1 `uc 1 DAC1R0 1 0 :1:0 
+`uc 1 DAC1R1 1 0 :1:1 
+`uc 1 DAC1R2 1 0 :1:2 
+`uc 1 DAC1R3 1 0 :1:3 
+`uc 1 DAC1R4 1 0 :1:4 
+]
+[u S1274 . 1 `S1266 1 . 1 0 `S1268 1 . 1 0 ]
+[v _DAC1CON1bits DAC1CON1bits `VES1274  1 e 1 @2319 ]
+"10892
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @2452 ]
+[s S94 . 1 `uc 1 SYNC 1 0 :1:0 
+`uc 1 HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 OUT 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"10917
+[s S102 . 1 `uc 1 C2SYNC 1 0 :1:0 
+`uc 1 C2HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 C2POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 C2OUT 1 0 :1:6 
+`uc 1 C2EN 1 0 :1:7 
+]
+[u S110 . 1 `S94 1 . 1 0 `S102 1 . 1 0 ]
+[v _CM2CON0bits CM2CON0bits `VES110  1 e 1 @2452 ]
+"10972
+[v _CM2CON1 CM2CON1 `VEuc  1 e 1 @2453 ]
+"11012
+[v _CM2NCH CM2NCH `VEuc  1 e 1 @2454 ]
+"11072
+[v _CM2PCH CM2PCH `VEuc  1 e 1 @2455 ]
+[s S1304 . 1 `uc 1 MLC1OUT 1 0 :1:0 
+`uc 1 MLC2OUT 1 0 :1:1 
+`uc 1 MLC3OUT 1 0 :1:2 
+`uc 1 MLC4OUT 1 0 :1:3 
+]
+"11698
+[u S1309 . 1 `S1304 1 . 1 0 ]
+[v _CLCDATAbits CLCDATAbits `VES1309  1 e 1 @7695 ]
+"11723
+[v _CLC1CON CLC1CON `VEuc  1 e 1 @7696 ]
+[s S403 . 1 `uc 1 LC1MODE 1 0 :3:0 
+`uc 1 LC1INTN 1 0 :1:3 
+`uc 1 LC1INTP 1 0 :1:4 
+`uc 1 LC1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 LC1EN 1 0 :1:7 
+]
+"11756
+[s S410 . 1 `uc 1 LC1MODE0 1 0 :1:0 
+`uc 1 LC1MODE1 1 0 :1:1 
+`uc 1 LC1MODE2 1 0 :1:2 
+]
+[s S43 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 INTN 1 0 :1:3 
+`uc 1 INTP 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+[s S50 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+[u S425 . 1 `S403 1 . 1 0 `S410 1 . 1 0 `S43 1 . 1 0 `S50 1 . 1 0 ]
+[v _CLC1CONbits CLC1CONbits `VES425  1 e 1 @7696 ]
+"11841
+[v _CLC1POL CLC1POL `VEuc  1 e 1 @7697 ]
+[s S1331 . 1 `uc 1 LC1G1POL 1 0 :1:0 
+`uc 1 LC1G2POL 1 0 :1:1 
+`uc 1 LC1G3POL 1 0 :1:2 
+`uc 1 LC1G4POL 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 LC1POL 1 0 :1:7 
+]
+"11864
+[s S1338 . 1 `uc 1 G1POL 1 0 :1:0 
+`uc 1 G2POL 1 0 :1:1 
+`uc 1 G3POL 1 0 :1:2 
+`uc 1 G4POL 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 POL 1 0 :1:7 
+]
+[u S1345 . 1 `S1331 1 . 1 0 `S1338 1 . 1 0 ]
+[v _CLC1POLbits CLC1POLbits `VES1345  1 e 1 @7697 ]
+"11919
+[v _CLC1SEL0 CLC1SEL0 `VEuc  1 e 1 @7698 ]
+"12023
+[v _CLC1SEL1 CLC1SEL1 `VEuc  1 e 1 @7699 ]
+"12127
+[v _CLC1SEL2 CLC1SEL2 `VEuc  1 e 1 @7700 ]
+"12231
+[v _CLC1SEL3 CLC1SEL3 `VEuc  1 e 1 @7701 ]
+"12335
+[v _CLC1GLS0 CLC1GLS0 `VEuc  1 e 1 @7702 ]
+"12447
+[v _CLC1GLS1 CLC1GLS1 `VEuc  1 e 1 @7703 ]
+[s S1213 . 1 `uc 1 LC1G2D1N 1 0 :1:0 
+`uc 1 LC1G2D1T 1 0 :1:1 
+`uc 1 LC1G2D2N 1 0 :1:2 
+`uc 1 LC1G2D2T 1 0 :1:3 
+`uc 1 LC1G2D3N 1 0 :1:4 
+`uc 1 LC1G2D3T 1 0 :1:5 
+`uc 1 LC1G2D4N 1 0 :1:6 
+`uc 1 LC1G2D4T 1 0 :1:7 
+]
+"12474
+[s S1222 . 1 `uc 1 D1N 1 0 :1:0 
+`uc 1 D1T 1 0 :1:1 
+`uc 1 D2N 1 0 :1:2 
+`uc 1 D2T 1 0 :1:3 
+`uc 1 D3N 1 0 :1:4 
+`uc 1 D3T 1 0 :1:5 
+`uc 1 D4N 1 0 :1:6 
+`uc 1 D4T 1 0 :1:7 
+]
+[u S1231 . 1 `S1213 1 . 1 0 `S1222 1 . 1 0 ]
+[v _CLC1GLS1bits CLC1GLS1bits `VES1231  1 e 1 @7703 ]
+"12559
+[v _CLC1GLS2 CLC1GLS2 `VEuc  1 e 1 @7704 ]
+"12671
+[v _CLC1GLS3 CLC1GLS3 `VEuc  1 e 1 @7705 ]
+[s S1363 . 1 `uc 1 LC1G4D1N 1 0 :1:0 
+`uc 1 LC1G4D1T 1 0 :1:1 
+`uc 1 LC1G4D2N 1 0 :1:2 
+`uc 1 LC1G4D2T 1 0 :1:3 
+`uc 1 LC1G4D3N 1 0 :1:4 
+`uc 1 LC1G4D3T 1 0 :1:5 
+`uc 1 LC1G4D4N 1 0 :1:6 
+`uc 1 LC1G4D4T 1 0 :1:7 
+]
+"12698
+[s S1372 . 1 `uc 1 G4D1N 1 0 :1:0 
+`uc 1 G4D1T 1 0 :1:1 
+`uc 1 G4D2N 1 0 :1:2 
+`uc 1 G4D2T 1 0 :1:3 
+`uc 1 G4D3N 1 0 :1:4 
+`uc 1 G4D3T 1 0 :1:5 
+`uc 1 G4D4N 1 0 :1:6 
+`uc 1 G4D4T 1 0 :1:7 
+]
+[u S1381 . 1 `S1363 1 . 1 0 `S1372 1 . 1 0 ]
+[v _CLC1GLS3bits CLC1GLS3bits `VES1381  1 e 1 @7705 ]
+"12783
+[v _CLC2CON CLC2CON `VEuc  1 e 1 @7706 ]
+"12901
+[v _CLC2POL CLC2POL `VEuc  1 e 1 @7707 ]
+[s S1433 . 1 `uc 1 LC2G1POL 1 0 :1:0 
+`uc 1 LC2G2POL 1 0 :1:1 
+`uc 1 LC2G3POL 1 0 :1:2 
+`uc 1 LC2G4POL 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 LC2POL 1 0 :1:7 
+]
+"12924
+[u S1447 . 1 `S1433 1 . 1 0 `S1338 1 . 1 0 ]
+[v _CLC2POLbits CLC2POLbits `VES1447  1 e 1 @7707 ]
+"12979
+[v _CLC2SEL0 CLC2SEL0 `VEuc  1 e 1 @7708 ]
+"13083
+[v _CLC2SEL1 CLC2SEL1 `VEuc  1 e 1 @7709 ]
+"13187
+[v _CLC2SEL2 CLC2SEL2 `VEuc  1 e 1 @7710 ]
+"13291
+[v _CLC2SEL3 CLC2SEL3 `VEuc  1 e 1 @7711 ]
+"13395
+[v _CLC2GLS0 CLC2GLS0 `VEuc  1 e 1 @7712 ]
+"13507
+[v _CLC2GLS1 CLC2GLS1 `VEuc  1 e 1 @7713 ]
+"13619
+[v _CLC2GLS2 CLC2GLS2 `VEuc  1 e 1 @7714 ]
+"13731
+[v _CLC2GLS3 CLC2GLS3 `VEuc  1 e 1 @7715 ]
+"13843
+[v _CLC3CON CLC3CON `VEuc  1 e 1 @7716 ]
+[s S329 . 1 `uc 1 LC3MODE 1 0 :3:0 
+`uc 1 LC3INTN 1 0 :1:3 
+`uc 1 LC3INTP 1 0 :1:4 
+`uc 1 LC3OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 LC3EN 1 0 :1:7 
+]
+"13876
+[s S336 . 1 `uc 1 LC3MODE0 1 0 :1:0 
+`uc 1 LC3MODE1 1 0 :1:1 
+`uc 1 LC3MODE2 1 0 :1:2 
+]
+[u S351 . 1 `S329 1 . 1 0 `S336 1 . 1 0 `S43 1 . 1 0 `S50 1 . 1 0 ]
+[v _CLC3CONbits CLC3CONbits `VES351  1 e 1 @7716 ]
+"13961
+[v _CLC3POL CLC3POL `VEuc  1 e 1 @7717 ]
+"14039
+[v _CLC3SEL0 CLC3SEL0 `VEuc  1 e 1 @7718 ]
+"14143
+[v _CLC3SEL1 CLC3SEL1 `VEuc  1 e 1 @7719 ]
+"14247
+[v _CLC3SEL2 CLC3SEL2 `VEuc  1 e 1 @7720 ]
+"14351
+[v _CLC3SEL3 CLC3SEL3 `VEuc  1 e 1 @7721 ]
+"14455
+[v _CLC3GLS0 CLC3GLS0 `VEuc  1 e 1 @7722 ]
+"14567
+[v _CLC3GLS1 CLC3GLS1 `VEuc  1 e 1 @7723 ]
+"14679
+[v _CLC3GLS2 CLC3GLS2 `VEuc  1 e 1 @7724 ]
+"14791
+[v _CLC3GLS3 CLC3GLS3 `VEuc  1 e 1 @7725 ]
+"14903
+[v _CLC4CON CLC4CON `VEuc  1 e 1 @7726 ]
+"15021
+[v _CLC4POL CLC4POL `VEuc  1 e 1 @7727 ]
+"15099
+[v _CLC4SEL0 CLC4SEL0 `VEuc  1 e 1 @7728 ]
+"15203
+[v _CLC4SEL1 CLC4SEL1 `VEuc  1 e 1 @7729 ]
+"15307
+[v _CLC4SEL2 CLC4SEL2 `VEuc  1 e 1 @7730 ]
+"15411
+[v _CLC4SEL3 CLC4SEL3 `VEuc  1 e 1 @7731 ]
+"15515
+[v _CLC4GLS0 CLC4GLS0 `VEuc  1 e 1 @7732 ]
+"15627
+[v _CLC4GLS1 CLC4GLS1 `VEuc  1 e 1 @7733 ]
+"15739
+[v _CLC4GLS2 CLC4GLS2 `VEuc  1 e 1 @7734 ]
+"15851
+[v _CLC4GLS3 CLC4GLS3 `VEuc  1 e 1 @7735 ]
+"16447
+[v _CLCIN0PPS CLCIN0PPS `VEuc  1 e 1 @7867 ]
+"17847
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @7974 ]
+"17891
+[v _RC7PPS RC7PPS `VEuc  1 e 1 @7975 ]
+"17935
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"17980
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"18030
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"18075
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"18120
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"18320
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"18359
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"18398
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"18437
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"18476
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"18632
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"18694
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"18756
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"18818
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"18880
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"68 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\efuse.c
+[v _adcVccSense_curr adcVccSense_curr `us  1 e 2 0 ]
+"69
+[v _adcVccSense_prev adcVccSense_prev `us  1 e 2 0 ]
+"70
+[v _adcISense_corr adcISense_corr `us  1 e 2 0 ]
+"71
+[v _adcISense_curr adcISense_curr `us  1 e 2 0 ]
+"72
+[v _adcISense_OneMOSFET adcISense_OneMOSFET `us  1 e 2 0 ]
+"73
+[v _adcISense_prev adcISense_prev `us  1 e 2 0 ]
+"74
+[v _iSenseOffset iSenseOffset `us  1 e 2 0 ]
+"75
+[v _outputState outputState `uc  1 e 1 0 ]
+"77
+[v _ticks_1ms ticks_1ms `us  1 e 2 0 ]
+"78
+[v _triggerType triggerType `uc  1 e 1 0 ]
+"85
+[v _isense_max isense_max `us  1 e 2 0 ]
+"86
+[v _reduced_drive_time reduced_drive_time `uc  1 e 1 0 ]
+"60 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEus  1 e 2 0 ]
+"66
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"57 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"55 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"73
+} 0
+"50 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"66
+} 0
+"63 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"68 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"155
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"157
+} 0
+"84 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"55 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"116
+} 0
+"68 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"82
+} 0
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/dac1.c
+[v _DAC1_Initialize DAC1_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/cmp2.c
+[v _CMP2_Initialize CMP2_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc4.c
+[v _CLC4_Initialize CLC4_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc3.c
+[v _CLC3_Initialize CLC3_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc2.c
+[v _CLC2_Initialize CLC2_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"58 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"67 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"90 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\efuse.c
+[v _EFuseInit EFuseInit `(v  1 e 1 0 ]
+{
+"112
+} 0
+"129 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr0.c
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+{
+"134
+} 0
+"114 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\efuse.c
+[v _EFuse EFuse `(v  1 e 1 0 ]
+{
+"150
+} 0
+"198
+[v _CmdOutput CmdOutput `(v  1 e 1 0 ]
+{
+[v CmdOutput@enable enable `uc  1 a 1 wreg ]
+[v CmdOutput@enable enable `uc  1 a 1 wreg ]
+"200
+[v CmdOutput@enable enable `uc  1 a 1 4 ]
+"278
+} 0
+"111 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr2.c
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+{
+"115
+} 0
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+{
+"104
+} 0
+"62
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"120 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr1.c
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"98
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"102
+} 0
+"92
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"96
+} 0
+"52 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"74
+} 0
+"136 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"152
+} 0
+"159
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"162
+} 0
+"153 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\efuse.c
+[v _ProcessAnalogInputs ProcessAnalogInputs `(v  1 e 1 0 ]
+{
+"195
+} 0
+"198
+[v i1_CmdOutput CmdOutput `(v  1 e 1 0 ]
+{
+[v i1CmdOutput@enable enable `uc  1 a 1 wreg ]
+[v i1CmdOutput@enable enable `uc  1 a 1 wreg ]
+"200
+[v i1CmdOutput@enable enable `uc  1 a 1 4 ]
+"278
+} 0
+"111 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr2.c
+[v i1_TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+{
+"115
+} 0
+"100
+[v i1_TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+{
+"104
+} 0
+"62
+[v i1_TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"120 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/tmr1.c
+[v i1_TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v i1TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"98
+[v i1_TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"102
+} 0
+"92
+[v i1_TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"96
+} 0
+"85 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/adc.c
+[v _ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+{
+[v ADC_SelectChannel@channel channel `E6750  1 a 1 wreg ]
+[v ADC_SelectChannel@channel channel `E6750  1 a 1 wreg ]
+"88
+[v ADC_SelectChannel@channel channel `E6750  1 a 1 1 ]
+"91
+} 0
+"112
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E6750  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E6750  1 a 1 wreg ]
+"115
+[v ADC_GetConversion@channel channel `E6750  1 a 1 3 ]
+"133
+} 0
+"89 C:\Users\abhin\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\Archives\E-Fuse_HVMCU.X\mcc_generated_files/clc2.c
+[v _CLC2_ISR CLC2_ISR `(v  1 e 1 0 ]
+{
+"93
+} 0

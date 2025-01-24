@@ -1,2 +1,2 @@
 # Efuse_SSCB
- efuse code and PCB design files
+ efuse code and PCB files

@@ -1,0 +1,1482 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15345 ]
+[d frameptr 6 ]
+"88 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr2.c
+[e E6739 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"94
+[e E6762 . `uc
+TMR2_T2INPPS 0
+TMR2_CCP1_OUT 1
+TMR2_CCP2_OUT 2
+TMR2_PWM3_OUT 3
+TMR2_PWM4_OUT 4
+TMR2_PWM5_OUT 5
+TMR2_PWM6_OUT 6
+TMR2_C1_OUT_SYNC 7
+TMR2_C2_OUT_SYNC 8
+TMR2_ZCD_OUTPUT 9
+TMR2_CLC1_OUT 10
+TMR2_CLC2_OUT 11
+TMR2_CLC3_OUT 12
+TMR2_CLC4_OUT 13
+]
+"85 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/adc.c
+[e E6744 . `uc
+ISENSE_ANB4 12
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"148 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr0.c
+[e E7217 . `uc
+ISENSE_ANB4 12
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"169
+[e E6772 EFUSE_STATES `uc
+OUTPUT_OFF 0
+OUTPUT_ON 1
+]
+"66 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\main.c
+[e E376 EFUSE_STATES `uc
+OUTPUT_OFF 0
+OUTPUT_ON 1
+]
+"89 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[e E7078 EFUSE_STATES `uc
+OUTPUT_OFF 0
+OUTPUT_ON 1
+]
+"90
+[e E7277 OCP_FAULT_STATES `uc
+NO_OVER_CURRENT_FAULT 0
+SLOW_OVER_CURRENT_FAULT 1
+FAST_OVER_CURRENT_FAULT 2
+SHORT_CIRCUIT 3
+]
+"92
+[e E7266 EFUSE_TRIGGER_TYPES `uc
+TRIGGER_EDGE 0
+TRIGGER_TIMER_OVERFLOW 1
+]
+"105
+[e E7269 HW_TRIP_CURRENT_THRESHOLDS `uc
+I_HW_TRIP_0A 0
+I_HW_TRIP_33A 1
+I_HW_TRIP_66A 2
+I_HW_TRIP_99A 3
+I_HW_TRIP_132A 4
+I_HW_TRIP_165A 5
+I_HW_TRIP_198A 6
+]
+"141
+[e E7217 . `uc
+ISENSE_ANB4 12
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"110 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[v _EFuseInit EFuseInit `(v  1 e 1 0 ]
+"133
+[v _EFuse EFuse `(v  1 e 1 0 ]
+"183
+[v _CmdOutput CmdOutput `(v  1 e 1 0 ]
+[v i1_CmdOutput CmdOutput `(v  1 e 1 0 ]
+"264
+[v _calculate_i2t calculate_i2t `(d  1 e 4 0 ]
+"277
+[v _sendNumberToUART sendNumberToUART `(v  1 e 1 0 ]
+"301
+[v _intToBaseString intToBaseString `(uc  1 e 1 0 ]
+"327
+[v _doubleToString doubleToString `(uc  1 e 1 0 ]
+"352
+[v _sendStringToUART sendStringToUART `(v  1 e 1 0 ]
+[v i1_sendStringToUART sendStringToUART `(v  1 e 1 0 ]
+"55 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"67 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"85
+[v _ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+[v i1_ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+"93
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+[v i1_ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+"100
+[v _ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+[v i1_ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+"106
+[v _ADC_GetConversionResult ADC_GetConversionResult `(us  1 e 2 0 ]
+[v i1_ADC_GetConversionResult ADC_GetConversionResult `(us  1 e 2 0 ]
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc2.c
+[v _CLC2_Initialize CLC2_Initialize `(v  1 e 1 0 ]
+"89
+[v _CLC2_ISR CLC2_ISR `(v  1 e 1 0 ]
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc3.c
+[v _CLC3_Initialize CLC3_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc4.c
+[v _CLC4_Initialize CLC4_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/cmp2.c
+[v _CMP2_Initialize CMP2_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/dac1.c
+[v _DAC1_Initialize DAC1_Initialize `(v  1 e 1 0 ]
+"66 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"94
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+[v i1_EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+[v i1_EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"144
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"146
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"154
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"157
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"161
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"165
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"69
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"85
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"68 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"98
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+"103
+[v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+"132
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"174
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"178
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"63 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"92
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+[v i1_TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"98
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+[v i1_TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+[v i1_TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"62 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+[v i1_TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+[v i1_TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+[v i1_TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+[s S862 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 C:\Program Files\Microchip\xc8\v2.46\pic\include\proc\pic16f15345.h
+[u S867 . 1 `S862 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES867  1 e 1 @11 ]
+"597
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"642
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"681
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+[s S1647 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"698
+[u S1656 . 1 `S1647 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES1656  1 e 1 @20 ]
+"743
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"788
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+"827
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+"896
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"966
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1036
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S963 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GOnDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 CHS5 1 0 :1:7 
+]
+"1057
+[s S972 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CHS 1 0 :6:2 
+]
+[u S975 . 1 `S963 1 . 1 0 `S972 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES975  1 e 1 @157 ]
+"1107
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1225
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"1279
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"1345
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"1399
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"1453
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S1265 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1479
+[u S1274 . 1 `S1265 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES1274  1 e 1 @285 ]
+"1633
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S1244 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"1659
+[u S1253 . 1 `S1244 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES1253  1 e 1 @286 ]
+"1813
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"3009
+[v _TMR1L TMR1L `VEuc  1 e 1 @524 ]
+"3179
+[v _TMR1H TMR1H `VEuc  1 e 1 @525 ]
+"3299
+[v _T1CON T1CON `VEuc  1 e 1 @526 ]
+[s S713 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"3330
+[s S719 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S726 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S730 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S733 . 1 `S713 1 . 1 0 `S719 1 . 1 0 `S726 1 . 1 0 `S730 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES733  1 e 1 @526 ]
+"3395
+[v _T1GCON T1GCON `VEuc  1 e 1 @527 ]
+[s S759 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GVAL 1 0 :1:2 
+`uc 1 GGO_nDONE 1 0 :1:3 
+`uc 1 GSPM 1 0 :1:4 
+`uc 1 GTM 1 0 :1:5 
+`uc 1 GPOL 1 0 :1:6 
+`uc 1 GE 1 0 :1:7 
+]
+"3429
+[s S767 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 T1GE 1 0 :1:7 
+]
+[s S775 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[u S778 . 1 `S759 1 . 1 0 `S767 1 . 1 0 `S775 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES778  1 e 1 @527 ]
+"3591
+[v _T1GATE T1GATE `VEuc  1 e 1 @528 ]
+"3757
+[v _T1CLK T1CLK `VEuc  1 e 1 @529 ]
+"3899
+[v _T2TMR T2TMR `VEuc  1 e 1 @652 ]
+"3904
+[v _TMR2 TMR2 `VEuc  1 e 1 @652 ]
+"3953
+[v _T2PR T2PR `VEuc  1 e 1 @653 ]
+"3958
+[v _PR2 PR2 `VEuc  1 e 1 @653 ]
+"4007
+[v _T2CON T2CON `VEuc  1 e 1 @654 ]
+[s S601 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"4043
+[s S605 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+]
+[s S613 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S617 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S626 . 1 `S601 1 . 1 0 `S605 1 . 1 0 `S613 1 . 1 0 `S617 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES626  1 e 1 @654 ]
+"4153
+[v _T2HLT T2HLT `VEuc  1 e 1 @655 ]
+[s S502 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"4186
+[s S507 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S513 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+[s S518 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+[u S524 . 1 `S502 1 . 1 0 `S507 1 . 1 0 `S513 1 . 1 0 `S518 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES524  1 e 1 @655 ]
+"4281
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @656 ]
+"4361
+[v _T2RST T2RST `VEuc  1 e 1 @657 ]
+[s S567 . 1 `uc 1 RSEL 1 0 :4:0 
+]
+"4386
+[s S569 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+]
+[s S574 . 1 `uc 1 T2RSEL 1 0 :4:0 
+]
+[s S576 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+]
+[u S581 . 1 `S567 1 . 1 0 `S569 1 . 1 0 `S574 1 . 1 0 `S576 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES581  1 e 1 @657 ]
+"6605
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+"6743
+[v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
+"6997
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
+[s S1075 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"7017
+[s S1081 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S1086 . 1 `S1075 1 . 1 0 `S1081 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES1086  1 e 1 @1438 ]
+"7062
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
+[s S845 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"7923
+[u S850 . 1 `S845 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES850  1 e 1 @1804 ]
+[s S1454 . 1 `uc 1 C1IF 1 0 :1:0 
+`uc 1 C2IF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 ZCDIF 1 0 :1:6 
+]
+"7995
+[u S1459 . 1 `S1454 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1459  1 e 1 @1806 ]
+[s S1225 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"8031
+[u S1233 . 1 `S1225 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES1233  1 e 1 @1807 ]
+[s S470 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+]
+"8077
+[u S473 . 1 `S470 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES473  1 e 1 @1808 ]
+[s S149 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 CLC1IF 1 0 :1:4 
+`uc 1 CLC2IF 1 0 :1:5 
+`uc 1 CLC3IF 1 0 :1:6 
+`uc 1 CLC4IF 1 0 :1:7 
+]
+"8107
+[u S156 . 1 `S149 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES156  1 e 1 @1809 ]
+[s S832 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"8218
+[u S837 . 1 `S832 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES837  1 e 1 @1814 ]
+[s S166 . 1 `uc 1 TMR1GIE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 CLC1IE 1 0 :1:4 
+`uc 1 CLC2IE 1 0 :1:5 
+`uc 1 CLC3IE 1 0 :1:6 
+`uc 1 CLC4IE 1 0 :1:7 
+]
+"8396
+[u S173 . 1 `S166 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES173  1 e 1 @1819 ]
+"8494
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"8539
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"8587
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"8632
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"8682
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"8722
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"9790
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"9930
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"9970
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @2192 ]
+"10027
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"10078
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"10136
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"10287
+[v _FVRCON FVRCON `VEuc  1 e 1 @2316 ]
+[s S915 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"10308
+[s S922 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+]
+[u S927 . 1 `S915 1 . 1 0 `S922 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES927  1 e 1 @2316 ]
+"10363
+[v _DAC1CON0 DAC1CON0 `VEuc  1 e 1 @2318 ]
+"10464
+[v _DAC1CON1 DAC1CON1 `VEuc  1 e 1 @2319 ]
+[s S1467 . 1 `uc 1 DAC1R 1 0 :5:0 
+]
+"10481
+[s S1469 . 1 `uc 1 DAC1R0 1 0 :1:0 
+`uc 1 DAC1R1 1 0 :1:1 
+`uc 1 DAC1R2 1 0 :1:2 
+`uc 1 DAC1R3 1 0 :1:3 
+`uc 1 DAC1R4 1 0 :1:4 
+]
+[u S1475 . 1 `S1467 1 . 1 0 `S1469 1 . 1 0 ]
+[v _DAC1CON1bits DAC1CON1bits `VES1475  1 e 1 @2319 ]
+"10880
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @2452 ]
+[s S94 . 1 `uc 1 SYNC 1 0 :1:0 
+`uc 1 HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 OUT 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"10905
+[s S102 . 1 `uc 1 C2SYNC 1 0 :1:0 
+`uc 1 C2HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 C2POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 C2OUT 1 0 :1:6 
+`uc 1 C2EN 1 0 :1:7 
+]
+[u S110 . 1 `S94 1 . 1 0 `S102 1 . 1 0 ]
+[v _CM2CON0bits CM2CON0bits `VES110  1 e 1 @2452 ]
+"10960
+[v _CM2CON1 CM2CON1 `VEuc  1 e 1 @2453 ]
+"11000
+[v _CM2NCH CM2NCH `VEuc  1 e 1 @2454 ]
+"11060
+[v _CM2PCH CM2PCH `VEuc  1 e 1 @2455 ]
+"11711
+[v _CLC1CON CLC1CON `VEuc  1 e 1 @7696 ]
+[s S407 . 1 `uc 1 LC1MODE 1 0 :3:0 
+`uc 1 LC1INTN 1 0 :1:3 
+`uc 1 LC1INTP 1 0 :1:4 
+`uc 1 LC1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 LC1EN 1 0 :1:7 
+]
+"11744
+[s S414 . 1 `uc 1 LC1MODE0 1 0 :1:0 
+`uc 1 LC1MODE1 1 0 :1:1 
+`uc 1 LC1MODE2 1 0 :1:2 
+]
+[s S43 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 INTN 1 0 :1:3 
+`uc 1 INTP 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+[s S50 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+[u S429 . 1 `S407 1 . 1 0 `S414 1 . 1 0 `S43 1 . 1 0 `S50 1 . 1 0 ]
+[v _CLC1CONbits CLC1CONbits `VES429  1 e 1 @7696 ]
+"11829
+[v _CLC1POL CLC1POL `VEuc  1 e 1 @7697 ]
+[s S1513 . 1 `uc 1 LC1G1POL 1 0 :1:0 
+`uc 1 LC1G2POL 1 0 :1:1 
+`uc 1 LC1G3POL 1 0 :1:2 
+`uc 1 LC1G4POL 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 LC1POL 1 0 :1:7 
+]
+"11852
+[s S1520 . 1 `uc 1 G1POL 1 0 :1:0 
+`uc 1 G2POL 1 0 :1:1 
+`uc 1 G3POL 1 0 :1:2 
+`uc 1 G4POL 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 POL 1 0 :1:7 
+]
+[u S1527 . 1 `S1513 1 . 1 0 `S1520 1 . 1 0 ]
+[v _CLC1POLbits CLC1POLbits `VES1527  1 e 1 @7697 ]
+"11907
+[v _CLC1SEL0 CLC1SEL0 `VEuc  1 e 1 @7698 ]
+"12011
+[v _CLC1SEL1 CLC1SEL1 `VEuc  1 e 1 @7699 ]
+"12115
+[v _CLC1SEL2 CLC1SEL2 `VEuc  1 e 1 @7700 ]
+"12219
+[v _CLC1SEL3 CLC1SEL3 `VEuc  1 e 1 @7701 ]
+"12323
+[v _CLC1GLS0 CLC1GLS0 `VEuc  1 e 1 @7702 ]
+"12435
+[v _CLC1GLS1 CLC1GLS1 `VEuc  1 e 1 @7703 ]
+[s S1414 . 1 `uc 1 LC1G2D1N 1 0 :1:0 
+`uc 1 LC1G2D1T 1 0 :1:1 
+`uc 1 LC1G2D2N 1 0 :1:2 
+`uc 1 LC1G2D2T 1 0 :1:3 
+`uc 1 LC1G2D3N 1 0 :1:4 
+`uc 1 LC1G2D3T 1 0 :1:5 
+`uc 1 LC1G2D4N 1 0 :1:6 
+`uc 1 LC1G2D4T 1 0 :1:7 
+]
+"12462
+[s S1423 . 1 `uc 1 D1N 1 0 :1:0 
+`uc 1 D1T 1 0 :1:1 
+`uc 1 D2N 1 0 :1:2 
+`uc 1 D2T 1 0 :1:3 
+`uc 1 D3N 1 0 :1:4 
+`uc 1 D3T 1 0 :1:5 
+`uc 1 D4N 1 0 :1:6 
+`uc 1 D4T 1 0 :1:7 
+]
+[u S1432 . 1 `S1414 1 . 1 0 `S1423 1 . 1 0 ]
+[v _CLC1GLS1bits CLC1GLS1bits `VES1432  1 e 1 @7703 ]
+"12547
+[v _CLC1GLS2 CLC1GLS2 `VEuc  1 e 1 @7704 ]
+"12659
+[v _CLC1GLS3 CLC1GLS3 `VEuc  1 e 1 @7705 ]
+[s S1545 . 1 `uc 1 LC1G4D1N 1 0 :1:0 
+`uc 1 LC1G4D1T 1 0 :1:1 
+`uc 1 LC1G4D2N 1 0 :1:2 
+`uc 1 LC1G4D2T 1 0 :1:3 
+`uc 1 LC1G4D3N 1 0 :1:4 
+`uc 1 LC1G4D3T 1 0 :1:5 
+`uc 1 LC1G4D4N 1 0 :1:6 
+`uc 1 LC1G4D4T 1 0 :1:7 
+]
+"12686
+[s S1554 . 1 `uc 1 G4D1N 1 0 :1:0 
+`uc 1 G4D1T 1 0 :1:1 
+`uc 1 G4D2N 1 0 :1:2 
+`uc 1 G4D2T 1 0 :1:3 
+`uc 1 G4D3N 1 0 :1:4 
+`uc 1 G4D3T 1 0 :1:5 
+`uc 1 G4D4N 1 0 :1:6 
+`uc 1 G4D4T 1 0 :1:7 
+]
+[u S1563 . 1 `S1545 1 . 1 0 `S1554 1 . 1 0 ]
+[v _CLC1GLS3bits CLC1GLS3bits `VES1563  1 e 1 @7705 ]
+"12771
+[v _CLC2CON CLC2CON `VEuc  1 e 1 @7706 ]
+[s S183 . 1 `uc 1 LC2MODE 1 0 :3:0 
+`uc 1 LC2INTN 1 0 :1:3 
+`uc 1 LC2INTP 1 0 :1:4 
+`uc 1 LC2OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 LC2EN 1 0 :1:7 
+]
+"12804
+[s S190 . 1 `uc 1 LC2MODE0 1 0 :1:0 
+`uc 1 LC2MODE1 1 0 :1:1 
+`uc 1 LC2MODE2 1 0 :1:2 
+]
+[u S205 . 1 `S183 1 . 1 0 `S190 1 . 1 0 `S43 1 . 1 0 `S50 1 . 1 0 ]
+[v _CLC2CONbits CLC2CONbits `VES205  1 e 1 @7706 ]
+"12889
+[v _CLC2POL CLC2POL `VEuc  1 e 1 @7707 ]
+[s S1615 . 1 `uc 1 LC2G1POL 1 0 :1:0 
+`uc 1 LC2G2POL 1 0 :1:1 
+`uc 1 LC2G3POL 1 0 :1:2 
+`uc 1 LC2G4POL 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 LC2POL 1 0 :1:7 
+]
+"12912
+[u S1629 . 1 `S1615 1 . 1 0 `S1520 1 . 1 0 ]
+[v _CLC2POLbits CLC2POLbits `VES1629  1 e 1 @7707 ]
+"12967
+[v _CLC2SEL0 CLC2SEL0 `VEuc  1 e 1 @7708 ]
+"13071
+[v _CLC2SEL1 CLC2SEL1 `VEuc  1 e 1 @7709 ]
+"13175
+[v _CLC2SEL2 CLC2SEL2 `VEuc  1 e 1 @7710 ]
+"13279
+[v _CLC2SEL3 CLC2SEL3 `VEuc  1 e 1 @7711 ]
+"13383
+[v _CLC2GLS0 CLC2GLS0 `VEuc  1 e 1 @7712 ]
+"13495
+[v _CLC2GLS1 CLC2GLS1 `VEuc  1 e 1 @7713 ]
+"13607
+[v _CLC2GLS2 CLC2GLS2 `VEuc  1 e 1 @7714 ]
+"13719
+[v _CLC2GLS3 CLC2GLS3 `VEuc  1 e 1 @7715 ]
+"13831
+[v _CLC3CON CLC3CON `VEuc  1 e 1 @7716 ]
+[s S333 . 1 `uc 1 LC3MODE 1 0 :3:0 
+`uc 1 LC3INTN 1 0 :1:3 
+`uc 1 LC3INTP 1 0 :1:4 
+`uc 1 LC3OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 LC3EN 1 0 :1:7 
+]
+"13864
+[s S340 . 1 `uc 1 LC3MODE0 1 0 :1:0 
+`uc 1 LC3MODE1 1 0 :1:1 
+`uc 1 LC3MODE2 1 0 :1:2 
+]
+[u S355 . 1 `S333 1 . 1 0 `S340 1 . 1 0 `S43 1 . 1 0 `S50 1 . 1 0 ]
+[v _CLC3CONbits CLC3CONbits `VES355  1 e 1 @7716 ]
+"13949
+[v _CLC3POL CLC3POL `VEuc  1 e 1 @7717 ]
+"14027
+[v _CLC3SEL0 CLC3SEL0 `VEuc  1 e 1 @7718 ]
+"14131
+[v _CLC3SEL1 CLC3SEL1 `VEuc  1 e 1 @7719 ]
+"14235
+[v _CLC3SEL2 CLC3SEL2 `VEuc  1 e 1 @7720 ]
+"14339
+[v _CLC3SEL3 CLC3SEL3 `VEuc  1 e 1 @7721 ]
+"14443
+[v _CLC3GLS0 CLC3GLS0 `VEuc  1 e 1 @7722 ]
+"14555
+[v _CLC3GLS1 CLC3GLS1 `VEuc  1 e 1 @7723 ]
+"14667
+[v _CLC3GLS2 CLC3GLS2 `VEuc  1 e 1 @7724 ]
+"14779
+[v _CLC3GLS3 CLC3GLS3 `VEuc  1 e 1 @7725 ]
+"14891
+[v _CLC4CON CLC4CON `VEuc  1 e 1 @7726 ]
+[s S32 . 1 `uc 1 LC4MODE 1 0 :3:0 
+`uc 1 LC4INTN 1 0 :1:3 
+`uc 1 LC4INTP 1 0 :1:4 
+`uc 1 LC4OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 LC4EN 1 0 :1:7 
+]
+"14924
+[s S39 . 1 `uc 1 LC4MODE0 1 0 :1:0 
+`uc 1 LC4MODE1 1 0 :1:1 
+`uc 1 LC4MODE2 1 0 :1:2 
+]
+[u S54 . 1 `S32 1 . 1 0 `S39 1 . 1 0 `S43 1 . 1 0 `S50 1 . 1 0 ]
+[v _CLC4CONbits CLC4CONbits `VES54  1 e 1 @7726 ]
+"15009
+[v _CLC4POL CLC4POL `VEuc  1 e 1 @7727 ]
+"15087
+[v _CLC4SEL0 CLC4SEL0 `VEuc  1 e 1 @7728 ]
+"15191
+[v _CLC4SEL1 CLC4SEL1 `VEuc  1 e 1 @7729 ]
+"15295
+[v _CLC4SEL2 CLC4SEL2 `VEuc  1 e 1 @7730 ]
+"15399
+[v _CLC4SEL3 CLC4SEL3 `VEuc  1 e 1 @7731 ]
+"15503
+[v _CLC4GLS0 CLC4GLS0 `VEuc  1 e 1 @7732 ]
+"15615
+[v _CLC4GLS1 CLC4GLS1 `VEuc  1 e 1 @7733 ]
+"15727
+[v _CLC4GLS2 CLC4GLS2 `VEuc  1 e 1 @7734 ]
+"15839
+[v _CLC4GLS3 CLC4GLS3 `VEuc  1 e 1 @7735 ]
+"16435
+[v _CLCIN0PPS CLCIN0PPS `VEuc  1 e 1 @7867 ]
+"17527
+[v _RB7PPS RB7PPS `VEuc  1 e 1 @7967 ]
+"17835
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @7974 ]
+"17879
+[v _RC7PPS RC7PPS `VEuc  1 e 1 @7975 ]
+"17923
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"17968
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"18018
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"18063
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"18108
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"18308
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"18347
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"18386
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"18425
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"18464
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"18620
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"18682
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"18744
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"18806
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"18868
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"85 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[v _adcISense_curr adcISense_curr `us  1 e 2 0 ]
+"88
+[v _iSenseOffset iSenseOffset `us  1 e 2 0 ]
+"89
+[v _outputState outputState `uc  1 e 1 0 ]
+"91
+[v _ticks_1ms ticks_1ms `us  1 e 2 0 ]
+"92
+[v _triggerType triggerType `uc  1 e 1 0 ]
+"97
+[v _overcurrent_duration_ms overcurrent_duration_ms `d  1 e 4 0 ]
+"98
+[v _timer0_duration_ms timer0_duration_ms `d  1 e 4 0 ]
+"99
+[v _i2t_accumulated i2t_accumulated `d  1 e 4 0 ]
+"100
+[v _i2t_threshold i2t_threshold `d  1 e 4 0 ]
+"101
+[v _overcurrentDetected overcurrentDetected `VEa  1 e 1 0 ]
+"106
+[v _isense_max isense_max `us  1 e 2 0 ]
+"107
+[v _reduced_drive_time reduced_drive_time `uc  1 e 1 0 ]
+[s S1179 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/eusart1.c
+[u S1184 . 1 `S1179 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES1184  1 e 1 0 ]
+"58
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"60 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEus  1 e 2 0 ]
+"66
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"57 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"55 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"73
+} 0
+"50 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"67
+} 0
+"63 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"68 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"174
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"176
+} 0
+"85 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"55 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"69 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"66 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"161
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"163
+} 0
+"157
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"159
+} 0
+"165
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"167
+} 0
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/dac1.c
+[v _DAC1_Initialize DAC1_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/cmp2.c
+[v _CMP2_Initialize CMP2_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc4.c
+[v _CLC4_Initialize CLC4_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc3.c
+[v _CLC3_Initialize CLC3_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc2.c
+[v _CLC2_Initialize CLC2_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"58 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"67 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"110 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[v _EFuseInit EFuseInit `(v  1 e 1 0 ]
+{
+"131
+} 0
+"183
+[v _CmdOutput CmdOutput `(v  1 e 1 0 ]
+{
+[v CmdOutput@enable enable `uc  1 a 1 wreg ]
+[v CmdOutput@enable enable `uc  1 a 1 wreg ]
+[v CmdOutput@enable enable `uc  1 a 1 4 ]
+"260
+} 0
+"111 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr2.c
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+{
+"115
+} 0
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+{
+"104
+} 0
+"62
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"120 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr1.c
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"98
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"102
+} 0
+"92
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"96
+} 0
+"133 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[v _EFuse EFuse `(v  1 e 1 0 ]
+{
+"181
+} 0
+"352
+[v _sendStringToUART sendStringToUART `(v  1 e 1 0 ]
+{
+"354
+[v sendStringToUART@i i `uc  1 a 1 6 ]
+"352
+[v sendStringToUART@str str `*.25DCuc  1 p 2 1 ]
+"362
+} 0
+"94 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/eusart1.c
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+{
+"97
+} 0
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"98 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr0.c
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+{
+"101
+} 0
+"93 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/adc.c
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+{
+"97
+} 0
+"85
+[v _ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+{
+[v ADC_SelectChannel@channel channel `E6744  1 a 1 wreg ]
+[v ADC_SelectChannel@channel channel `E6744  1 a 1 wreg ]
+"88
+[v ADC_SelectChannel@channel channel `E6744  1 a 1 1 ]
+"91
+} 0
+"100
+[v _ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+{
+"104
+} 0
+"106
+[v _ADC_GetConversionResult ADC_GetConversionResult `(us  1 e 2 0 ]
+{
+"110
+} 0
+"52 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"74
+} 0
+"132 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"172
+} 0
+"352 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[v i1_sendStringToUART sendStringToUART `(v  1 e 1 0 ]
+{
+"354
+[v i1sendStringToUART@i i `uc  1 a 1 6 ]
+"352
+[v i1sendStringToUART@str str `*.25DCuc  1 p 2 1 ]
+"362
+} 0
+"183
+[v i1_CmdOutput CmdOutput `(v  1 e 1 0 ]
+{
+[v i1CmdOutput@enable enable `uc  1 a 1 wreg ]
+[v i1CmdOutput@enable enable `uc  1 a 1 wreg ]
+[v i1CmdOutput@enable enable `uc  1 a 1 4 ]
+"260
+} 0
+"111 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr2.c
+[v i1_TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+{
+"115
+} 0
+"100
+[v i1_TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+{
+"104
+} 0
+"62
+[v i1_TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"120 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr1.c
+[v i1_TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v i1TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"98
+[v i1_TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"102
+} 0
+"92
+[v i1_TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"96
+} 0
+"93 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/adc.c
+[v i1_ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+{
+"97
+} 0
+"85
+[v i1_ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+{
+[v i1ADC_SelectChannel@channel channel `E6744  1 a 1 wreg ]
+[v i1ADC_SelectChannel@channel channel `E6744  1 a 1 wreg ]
+"88
+[v i1ADC_SelectChannel@channel channel `E6744  1 a 1 1 ]
+"91
+} 0
+"100
+[v i1_ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+{
+"104
+} 0
+"106
+[v i1_ADC_GetConversionResult ADC_GetConversionResult `(us  1 e 2 0 ]
+{
+"110
+} 0
+"277 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[v _sendNumberToUART sendNumberToUART `(v  1 e 1 0 ]
+{
+"291
+[v sendNumberToUART@i i `uc  1 a 1 35 ]
+"278
+[v sendNumberToUART@buffer buffer `[30]uc  1 a 30 4 ]
+"279
+[v sendNumberToUART@length length `uc  1 a 1 34 ]
+"277
+[v sendNumberToUART@number number `d  1 p 4 74 ]
+"299
+} 0
+"94 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/eusart1.c
+[v i1_EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+{
+"97
+} 0
+"132
+[v i1_EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v i1EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v i1EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v i1EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"327 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[v _doubleToString doubleToString `(uc  1 e 1 0 ]
+{
+"340
+[v doubleToString@digit digit `uc  1 a 1 68 ]
+"338
+[v doubleToString@i i `uc  1 a 1 66 ]
+"337
+[v doubleToString@fractionPart fractionPart `d  1 a 4 69 ]
+"330
+[v doubleToString@length length `uc  1 a 1 73 ]
+"329
+[v doubleToString@intPart intPart `uc  1 a 1 67 ]
+"327
+[v doubleToString@value value `d  1 p 4 56 ]
+[v doubleToString@str str `*.4uc  1 p 1 60 ]
+[v doubleToString@precision precision `uc  1 p 1 61 ]
+"350
+} 0
+"301
+[v _intToBaseString intToBaseString `(uc  1 e 1 0 ]
+{
+[v intToBaseString@value value `uc  1 a 1 wreg ]
+"316
+[v intToBaseString@temp temp `uc  1 a 1 37 ]
+"303
+[v intToBaseString@digits digits `[37]uc  1 a 37 0 ]
+"314
+[v intToBaseString@end end `uc  1 a 1 41 ]
+"313
+[v intToBaseString@start start `uc  1 a 1 40 ]
+"306
+[v intToBaseString@i i `uc  1 a 1 39 ]
+"301
+[v intToBaseString@value value `uc  1 a 1 wreg ]
+[v intToBaseString@str str `*.4uc  1 p 1 10 ]
+[v intToBaseString@basee basee `uc  1 p 1 11 ]
+[v intToBaseString@F7324 F7324 `[37]uc  1 s 37 F7324 ]
+"303
+[v intToBaseString@value value `uc  1 a 1 38 ]
+"324
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 4 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 3 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 2 ]
+"18
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 4 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 3 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 2 ]
+"26
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"242 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 30 ]
+[v ___flsub@b b `d  1 p 4 34 ]
+"250
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 10 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 14 ]
+"12
+} 0
+"264 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\efuse.c
+[v _calculate_i2t calculate_i2t `(d  1 e 4 0 ]
+{
+"267
+[v calculate_i2t@current current `d  1 a 4 70 ]
+"270
+[v calculate_i2t@i_squared_t i_squared_t `d  1 a 4 62 ]
+"264
+[v calculate_i2t@adc_value adc_value `us  1 p 2 56 ]
+[v calculate_i2t@duration_ms duration_ms `d  1 p 4 58 ]
+"273
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 6 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 5 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 10 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 4 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1998 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S2003 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S2006 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1998 1 fAsBytes 4 0 `S2003 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S2006  1 a 4 50 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 45 ]
+[s S2075 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S2078 . 2 `s 1 i 2 0 `us 1 n 2 0 `S2075 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S2078  1 a 2 54 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 49 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 44 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 43 ]
+"8
+[v ___flmul@b b `d  1 p 4 30 ]
+[v ___flmul@a a `d  1 p 4 34 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `us  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `us  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 7 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 0 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 5 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 12 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 11 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 4 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 29 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 28 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 27 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 26 ]
+"10
+[v ___fladd@b b `d  1 p 4 10 ]
+[v ___fladd@a a `d  1 p 4 14 ]
+"237
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"103 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/tmr0.c
+[v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+{
+"106
+} 0
+"178
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"181
+} 0
+"89 C:\Users\Abhinav\OneDrive - IIT Dharwad\Documents\GitHub\E-Fuse-Temp-codes\I2t codes\E-Fuse_i_sq_t.X\mcc_generated_files/clc2.c
+[v _CLC2_ISR CLC2_ISR `(v  1 e 1 0 ]
+{
+"93
+} 0

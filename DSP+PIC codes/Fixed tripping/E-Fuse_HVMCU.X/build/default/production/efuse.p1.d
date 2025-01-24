@@ -1,0 +1,18 @@
+build/default/production/efuse.p1:  \
+efuse.c  \
+efuse.h  \
+mcc_generated_files/mcc.h  \
+mcc_generated_files/device_config.h  \
+mcc_generated_files/pin_manager.h  \
+mcc_generated_files/interrupt_manager.h  \
+mcc_generated_files/tmr1.h  \
+mcc_generated_files/tmr2.h  \
+mcc_generated_files/cmp2.h  \
+mcc_generated_files/tmr0.h  \
+mcc_generated_files/fvr.h  \
+mcc_generated_files/clc4.h  \
+mcc_generated_files/dac1.h  \
+mcc_generated_files/clc3.h  \
+mcc_generated_files/clc2.h  \
+mcc_generated_files/clc1.h  \
+mcc_generated_files/adc.h 

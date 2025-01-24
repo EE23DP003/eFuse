@@ -1,0 +1,114 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --board "/boards/LAUNCHXL_F28379D" --context "CPU1" --product "C2000WARE@5.01.00.00"
+ * @versions {"tool":"1.19.0+3426"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const adc         = scripting.addModule("/driverlib/adc.js");
+const adc1        = adc.addInstance();
+const led         = scripting.addModule("/driverlib/board_components/led", {}, false);
+const led1        = led.addInstance();
+const led2        = led.addInstance();
+const cputimer    = scripting.addModule("/driverlib/cputimer.js", {}, false);
+const cputimer1   = cputimer.addInstance();
+const epwm        = scripting.addModule("/driverlib/epwm.js", {}, false);
+const epwm1       = epwm.addInstance();
+const gpio        = scripting.addModule("/driverlib/gpio.js", {}, false);
+const gpio1       = gpio.addInstance();
+const gpio2       = gpio.addInstance();
+const gpio3       = gpio.addInstance();
+const gpio4       = gpio.addInstance();
+const FPUfastRTS  = scripting.addModule("/libraries/math/FPUfastRTS/FPUfastRTS.js", {}, false);
+const FPUfastRTS1 = FPUfastRTS.addInstance();
+const IQmath      = scripting.addModule("/libraries/math/IQmath/IQmath.js", {}, false);
+const IQmath1     = IQmath.addInstance();
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+adc1.$name                   = "myADC1";
+adc1.interruptPulseMode      = "ADC_PULSE_END_OF_CONV";
+adc1.soc0Trigger             = "ADC_TRIGGER_EPWM1_SOCA";
+adc1.soc0SampleWindow        = 20;
+adc1.enabledInts             = ["ADC_INT_NUMBER1"];
+adc1.enableInterrupt1        = true;
+adc1.registerInterrupts      = ["1"];
+adc1.adcClockPrescaler       = "ADC_CLK_DIV_8_5";
+adc1.ppb1ReferenceOffset     = 107;
+adc1.ppb2ReferenceOffset     = 107;
+adc1.ppb1Name                = "";
+adc1.soc1Channel             = "ADC_CH_ADCIN1";
+adc1.soc1Trigger             = "ADC_TRIGGER_EPWM1_SOCA";
+adc1.soc1SampleWindow        = 20;
+adc1.enabledSOCs             = ["ADC_SOC_NUMBER0"];
+adc1.adcInt1.enableInterrupt = true;
+
+led1.$name                  = "myBoardLED0";
+led1.$hardware              = system.deviceData.board.components.LED4;
+led1.gpio.writeInitialValue = true;
+
+led2.$name                  = "myBoardLED1";
+led2.$hardware              = system.deviceData.board.components.LED5;
+led2.gpio.writeInitialValue = true;
+led2.gpio.initialValue      = 1;
+
+cputimer1.enableInterrupt          = true;
+cputimer1.registerInterrupts       = true;
+cputimer1.$name                    = "I2T_TIMER_0";
+cputimer1.timerPrescaler           = 200;
+cputimer1.timerPeriod              = 1000;
+cputimer1.timerInt.enableInterrupt = true;
+
+epwm1.$name                                             = "myEPWM1";
+epwm1.epwmTimebase_hsClockDiv                           = "EPWM_HSCLOCK_DIVIDER_1";
+epwm1.epwmTimebase_counterMode                          = "EPWM_COUNTER_MODE_UP";
+epwm1.epwmEventTrigger_enableInterrupt                  = true;
+epwm1.epwmEventTrigger_EPWM_SOC_A_triggerEnable         = true;
+epwm1.epwmEventTrigger_EPWM_SOC_A_triggerSource         = "EPWM_SOC_TBCTR_PERIOD";
+epwm1.epwmEventTrigger_EPWM_SOC_A_triggerEventPrescalar = "1";
+epwm1.epwmTimebase_period                               = 3999;
+epwm1.epwm.$assign                                      = "EPWM1";
+epwm1.epwm.epwm_aPin.$assign                            = "boosterpack1.40";
+epwm1.epwm.epwm_bPin.$assign                            = "boosterpack1.39";
+scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM1 BP on the LaunchPad F28379D\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", epwm1.epwm, "epwm_aPin");
+scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM1 BP on the LaunchPad F28379D\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", epwm1.epwm, "epwm_bPin");
+
+gpio1.direction         = "GPIO_DIR_MODE_OUT";
+gpio1.writeInitialValue = true;
+gpio1.$name             = "EN1_M1";
+gpio1.gpioPin.$assign   = "boosterpack2.79";
+scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM4 BP on the LaunchPad F28379D\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", gpio1, "gpioPin");
+
+gpio2.direction         = "GPIO_DIR_MODE_OUT";
+gpio2.writeInitialValue = true;
+gpio2.initialValue      = 1;
+gpio2.$name             = "EN2_M1";
+gpio2.gpioPin.$assign   = "boosterpack2.80";
+scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM4 BP on the LaunchPad F28379D\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", gpio2, "gpioPin");
+
+gpio3.$name             = "EN1_M2";
+gpio3.writeInitialValue = true;
+gpio3.gpioPin.$assign   = "boosterpack2.76";
+scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM6 BP on the LaunchPad F28379D\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", gpio3, "gpioPin");
+
+gpio4.$name             = "EN2_M2";
+gpio4.writeInitialValue = true;
+gpio4.initialValue      = 1;
+gpio4.gpioPin.$assign   = "boosterpack2.75";
+scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to EPWM6 BP on the LaunchPad F28379D\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", gpio4, "gpioPin");
+
+FPUfastRTS1.$name = "myFFR0";
+
+IQmath1.$name = "myIQmath0";
+
+/**
+ * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
+ * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
+ * re-solve from scratch.
+ */
+led1.gpio.gpioPin.$suggestSolution = "GPIO31";
+led2.gpio.gpioPin.$suggestSolution = "GPIO34";

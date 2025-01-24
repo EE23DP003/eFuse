@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="circuit.svg"
+   inkscape:export-filename="circuit.pdf"
+   inkscape:export-xdpi="650"
+   inkscape:export-ydpi="650"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="248.37126"
+     inkscape:cy="290.09056"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="1909"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.282222;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5158-7-7-0-7-1"
+       width="54.651459"
+       height="22.207264"
+       x="50.86869"
+       y="-109.24574"
+       transform="scale(1,-1)"
+       inkscape:export-filename="circuit.pdf"
+       inkscape:export-xdpi="650"
+       inkscape:export-ydpi="650" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38667px;line-height:0%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.802696"
+       y="114.05931"
+       id="text4152-0-3-7-4-5-00-3-2-2-1-3-3-4"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"><tspan
+         sodipodi:role="line"
+         id="tspan4154-7-6-2-1-2-0-1-4-1-3-4-5-6"
+         x="59.802696"
+         y="114.05931"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;stroke-width:0.282222px">Solid State Circuit Breaker</tspan></text>
+    <g
+       id="g4227-4-6-2-1-9-4"
+       transform="matrix(0,0.20190121,-0.20277461,0,198.21776,67.977579)"
+       style="stroke-width:1.39481;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png">
+      <g
+         id="g4234-7-1-3-0-0-0"
+         transform="translate(-139.14851,-20.203051)"
+         style="stroke-width:1.39481;stroke-miterlimit:4;stroke-dasharray:none">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.39481;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4223-08-9-2-6-4-6"
+           width="13.794643"
+           height="32.723213"
+           x="221.07143"
+           y="520.04077" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.39481;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 234.37501,520.3756 c 0,0 -12.81251,0.60267 -12.72322,4.4866 0.0769,3.34734 12.72321,3.21429 12.72321,3.21429 0,0 -12.90178,0.71428 -12.8125,4.59822 0.0831,3.61511 12.67857,3.92857 12.67857,3.92857 0,0 -12.43656,1.07024 -12.45535,4.28571 -0.0198,3.39235 12.49999,4.0625 12.49999,4.0625 0,0 -12.27254,0.53794 -12.32143,4.01786 -0.0389,2.76902 12.34806,3.39286 12.34806,3.39286"
+           id="path4225-7-8-3-4-9-3"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cscscscsc" />
+      </g>
+    </g>
+    <g
+       id="g5480-2-1-5"
+       transform="matrix(0,-0.28222223,0.28222223,0,44.316685,-30.376477)"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999">
+      <rect
+         y="84.250069"
+         x="-423.62036"
+         height="13.321978"
+         width="8.9062548"
+         id="rect4345-20-2-5-9-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.758451;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-6-9-5-5-1"
+         d="m -415.56438,84.43098 h -8.49247"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-1-92-3-7-0-5"
+         d="m -415.5467,97.237325 h -8.67556"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-1-1-3-5-2-7-1"
+         d="m -426.13326,97.225918 h -8.47688"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4349-4-8-0-4-0"
+         d="m -421.38441,93.097306 -2.23218,-2.137095 2.2418,-2.115263"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-1-1-3-5-0-5-5-2"
+         d="m -415.58439,90.98686 h -8.41682"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5384-1-2-8"
+         d="M -424.31986,83.91008 V 97.699435"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5384-8-1-7-5"
+         d="M -426.32004,83.922049 V 97.76344"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5384-8-0-7-6-5"
+         d="m -416.06908,90.858689 v 6.816624"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <circle
+         r="9.3532047"
+         cy="91.086365"
+         cx="-421.34259"
+         id="path5447-7-5-3"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5480-2-1-5-9"
+       transform="matrix(0,-0.28222223,-0.28222223,0,103.98862,-30.381861)"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999">
+      <rect
+         y="84.250069"
+         x="-423.62036"
+         height="13.321978"
+         width="8.9062548"
+         id="rect4345-20-2-5-9-0-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.758451;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-6-9-5-5-1-5"
+         d="m -415.56438,84.43098 h -8.49247"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-1-92-3-7-0-5-2"
+         d="m -415.5467,97.237325 h -8.67556"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-1-1-3-5-2-7-1-2"
+         d="m -426.13326,97.225918 h -8.47688"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4349-4-8-0-4-0-4"
+         d="m -421.38441,93.097306 -2.23218,-2.137095 2.2418,-2.115263"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-1-1-3-5-0-5-5-2-7"
+         d="m -415.58439,90.98686 h -8.41682"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5384-1-2-8-3"
+         d="M -424.31986,83.91008 V 97.699435"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5384-8-1-7-5-4"
+         d="M -426.32004,83.922049 V 97.76344"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5384-8-0-7-6-5-0"
+         d="m -416.06908,90.858689 v 6.816624"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <circle
+         r="9.3532047"
+         cy="91.086365"
+         cx="-421.34259"
+         id="path5447-7-5-3-6"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4760-2-8-3-3"
+       transform="matrix(0.28222223,0,0,0.28222223,7.790665,140.64102)"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999">
+      <circle
+         r="12.142857"
+         cy="-150.85208"
+         cx="151.78571"
+         id="path4722-4-0-5-4"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="140.08725"
+         inkscape:export-xdpi="140.08725"
+         transform="matrix(0.76699044,0,0,0.7677873,31.185447,-632.76947)"
+         id="g4319-0-5-3-9-9-3-1-5">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.30312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 153.53056,621.29224 8.39689,0.0884"
+           id="path4300-7-0-0-3-3-1-1-3"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.30312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 157.7732,625.18133 v -7.42462"
+           id="path4302-2-6-6-4-7-4-6-7"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         inkscape:export-ydpi="140.08725"
+         inkscape:export-xdpi="140.08725"
+         inkscape:connector-curvature="0"
+         id="path4300-3-3-8-7-6-4-1-3-1"
+         d="m 149.05139,-145.15811 6.44034,0.0679"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38667px;line-height:0%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="84.617409"
+       y="82.82061"
+       id="text4152-0-3-7-4-5-00-3-2-2-1-3-3"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"><tspan
+         sodipodi:role="line"
+         id="tspan4154-7-6-2-1-2-0-1-4-1-3-4-5"
+         x="84.617409"
+         y="82.82061"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;stroke-width:0.282222px">Line inductance</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.38667px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="108.1516"
+       y="99.144592"
+       id="text4152-0-3-7-4-5-00-3-2-2-1-7-1"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"><tspan
+         sodipodi:role="line"
+         id="tspan4154-7-6-2-1-2-0-1-4-1-3-9-5"
+         x="108.1516"
+         y="99.144592"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;stroke-width:0.282222px">R<tspan
+   style="font-style:italic;font-size:2.75167px;baseline-shift:sub;stroke-width:0.282222px"
+   id="tspan4692-6-7-5-57-3-1-5-4-5-0">L</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.38667px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="52.753967"
+       y="104.25301"
+       id="text4152-0-3-7-4-5-00-3-2-2-1-8-9"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"><tspan
+         sodipodi:role="line"
+         id="tspan4154-7-6-2-1-2-0-1-4-1-3-3-3"
+         x="52.753967"
+         y="104.25301"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;stroke-width:0.282222px">HV battery</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.38667px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="72.385155"
+       y="95.693741"
+       id="text4152-0-3-7-4-5-00-3-2-2-1-3-2-7"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"><tspan
+         sodipodi:role="line"
+         id="tspan4154-7-6-2-1-2-0-1-4-1-3-4-1-1"
+         x="72.385155"
+         y="95.693741"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;stroke-width:0.282222px">Q</tspan></text>
+    <g
+       transform="matrix(-0.00258491,-0.28221039,0.28221039,-0.00258491,-89.337039,142.52248)"
+       id="g4206-7-9-7-3-7-5-6-4"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4202-4-2-8-1-0-4-6-6"
+         d="m 198.63401,525.75007 h 3.28879 l -1.71017,2.48885 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.370003px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4204-1-2-5-3-6-0-9-7"
+         d="m 200.26274,516.72882 v 9.34391"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.38667px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="52.907242"
+       y="85.394333"
+       id="text4152-0-3-7-49-1-5-1-4"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"><tspan
+         sodipodi:role="line"
+         id="tspan4154-7-6-2-7-2-3-3-8"
+         x="52.907242"
+         y="85.394333"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;stroke-width:0.282222px">i<tspan
+   style="font-style:italic;font-size:2.75167px;baseline-shift:sub;stroke-width:0.282222px"
+   id="tspan4692-6-9-4-4-7-0">L</tspan></tspan></text>
+    <g
+       id="g5969-6-4-3-4-4"
+       transform="matrix(0.37498425,0,0,0.37498425,-366.81875,-74.751237)"
+       inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\buckConverter_SUB1.png"
+       inkscape:export-xdpi="271.73999"
+       inkscape:export-ydpi="271.73999">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:export-ydpi="140.08725"
+         inkscape:export-xdpi="140.08725"
+         inkscape:connector-curvature="0"
+         id="path4152-9-1-4-5-8-6-4-6-2-5-2-3"
+         d="m 1113.8773,495.22045 4e-4,-4.81416"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.752624;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="140.08725"
+         inkscape:export-xdpi="140.08725"
+         inkscape:connector-curvature="0"
+         id="path4240-6-1-0-7-8-3-0-2-6"
+         d="m 1107.1725,494.91258 h 13.039"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.752624;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="140.08725"
+         inkscape:export-xdpi="140.08725"
+         inkscape:connector-curvature="0"
+         id="path4240-6-1-0-8-9-0-9-7-4-0"
+         d="m 1109.0508,497.12229 h 9.5476"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.752624;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="140.08725"
+         inkscape:export-xdpi="140.08725"
+         inkscape:connector-curvature="0"
+         id="path4240-6-1-0-2-7-4-9-3-2-0"
+         d="m 1111.0395,499.46458 h 5.4376"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.752624;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4789"
+       style="display:inline"
+       transform="matrix(0.31154076,0,0,0.31154076,127.73818,154.01935)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.992126;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5222"
+         width="7.0866113"
+         height="28.346457"
+         x="-74.897644"
+         y="-193.73628" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.992126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -71.354343,-193.73628 c 0,-12.52712 0,-12.52712 0,-12.52712"
+         id="path5225" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.992126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -71.354343,-165.38983 c 0,12.40258 0,12.40258 0,12.40258"
+         id="path5227" />
+    </g>
+    <rect
+       style="fill:#999999;fill-opacity:0.230257;stroke:#ffffff;stroke-width:0.394861;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect1"
+       width="19.699696"
+       height="17.080206"
+       x="64.143845"
+       y="81.543091"
+       rx="2.2973409" />
+  </g>
+</svg>
